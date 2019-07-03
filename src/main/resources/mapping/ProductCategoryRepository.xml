@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lqj.repository.ProductCategoryRepository">
+<!--
+    <select id="findAllLevelOne" resultType="ProductCategory">
+        select * from easybuy_product_category where type = 1
+    </select>
+    <select id="findAllLevelTwoByParentId" parameterType="java.lang.Long" resultType="ProductCategory">
+        select * from easybuy_product_category where type = 2 and parentid = #{id}
+    </select>
+    <select id="findAllLevelThreeByParentId" parameterType="java.lang.Long" resultType="ProductCategory">
+        select * from easybuy_product_category where type = 3 and parentid = #{id}
+    </select>
+-->
+    <select id="findAllByTypeAndParentId" resultType="ProductCategory">
+        select * from easybuy_product_category where type = #{param1} and parentid = #{param2}
+    </select>
+
+
+</mapper>

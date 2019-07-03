@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lqj.repository.CartRepository">
+
+    <insert id="save" parameterType="Cart">
+        insert into easybuy_cart(productid,quantity,cost,userid) values(#{product.id},#{quantity},#{cost},#{user.id})
+    </insert>
+
+    <resultMap id="cartMap" type="Cart">
+        <id column="cid" property="id"></id>
+        <result column="quantity" property="quantity"></result>
+        <result column="cost" property="cost"></result>
+        <association property="product" javaType="Product">
+            <id column="pid" property="id"></id>
+            <result column="name" property="name"></result>
+            <result column="price" property="price"></result>
+            <result column="filename" property="fileName"></result>
+            <result column="stock" property="stock"></result>
+        </association>
+    </resultMap>
+
+    <select id="findByUserId" parameterType="java.lang.Long" resultMap="cartMap">
+        select c.id cid,c.quantity,c.cost,p.id pid,p.name,p.price,p.filename,p.stock from easybuy_cart c,easybuy_product p where c.productid = p.id and c.userid = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        delete from easybuy_cart where id = #{id}
+    </delete>
+
+    <update id="updateById">
+        update easybuy_cart set quantity = #{param2},cost = #{param3} where id = #{param1}
+    </update>
+
+    <delete id="deleteByUserId" parameterType="java.lang.Long">
+        delete from easybuy_cart where userid = #{id}
+    </delete>
+
+</mapper>

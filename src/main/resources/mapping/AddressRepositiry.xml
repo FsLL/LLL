@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lqj.repository.AddressRepository">
+
+    <select id="findByUserId" parameterType="java.lang.Long" resultType="Address">
+        select * from easybuy_user_address where userid = #{id}
+    </select>
+
+</mapper>

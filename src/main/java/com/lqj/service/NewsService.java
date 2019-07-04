@@ -8,4 +8,6 @@ public interface NewsService {
 
     public List<News> findAll();
 
+    public List<News> findByPage(Integer page);
+    public Integer getPages();
 }

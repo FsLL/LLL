@@ -9,4 +9,12 @@
          select * from easybuy_news
     </select>
 
+    <select id="findByPage" resultType="News">
+        select * from easybuy_news limit #{param1},#{param2}
+    </select>
+
+    <select id="count" resultType="java.lang.Integer">
+        select count(*) from easybuy_news
+    </select>
+
 </mapper>

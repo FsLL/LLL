@@ -9,4 +9,5 @@ public interface ProductService {
     public List<ProductCategory> findAll();
     public List<Product> findByLevelId(Integer type, Long id);
     public Product findById(Long id);
+    public List<Product> findAllByKey(String key);
 }

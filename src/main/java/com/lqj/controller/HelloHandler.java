@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -71,5 +72,14 @@ public class HelloHandler {
         session.invalidate();
         //重新登录
         return "redirect:/login.jsp";
+    }
+
+    @GetMapping("/findNewsByPage/{page}")
+    public ModelAndView findNewsByPage(@PathVariable("page") Integer page){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("newsList");
+        modelAndView.addObject("list",newsService.findByPage(page));
+        modelAndView.addObject("pages",newsService.getPages());
+        return modelAndView;
     }
 }

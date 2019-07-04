@@ -25,7 +25,6 @@ public class OrderHandler {
     private CartService cartService;
     @Autowired
     private AddressService addressService;
-
     @Autowired
     private OrderService orderService;
 
@@ -67,13 +66,23 @@ public class OrderHandler {
         }
         order.setSerialNumber(seriaNumber);
         order.setUser(user);
-        orderService.save(order);
+        List<Cart> list = cartService.findByUserId(user.getId());
+        orderService.save(order,list);
         cartService.deleteByUserId(user.getId());
         user.setCarts(cartService.findByUserId(user.getId()));
         session.setAttribute("user",user);
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("order",order);
         modelAndView.setViewName("settlement3");
+        return modelAndView;
+    }
+
+    @GetMapping("/findAllByUserId")
+    public ModelAndView findAllByUserId(HttpSession session){
+        User user = (User) session.getAttribute("user");
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("orderList");
+        modelAndView.addObject("list",orderService.findAllByUserId(user.getId()));
         return modelAndView;
     }
 }

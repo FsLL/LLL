@@ -2,8 +2,32 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lqj.repository.OrderRepository">
 
-    <insert id="save" parameterType="Order">
+    <insert id="save" parameterType="Order" useGeneratedKeys="true" keyProperty="id">
         insert into easybuy_order(userid,useraddress,createtime,cost,serialnumber) values (#{user.id},#{useraddress},#{createTime},#{cost},#{serialNumber})
     </insert>
+
+    <insert id="saveDetail" parameterType="OrderDetail">
+        insert into easybuy_order_detail(orderid,productid,quantity,cost) values (#{order.id},#{product.id},#{quantity},#{cost})
+    </insert>
+
+    <resultMap id="orderMap" type="Order">
+        <result column="useraddress" property="useraddress"></result>
+        <result column="cost" property="cost"></result>
+        <result column="serialnumber" property="serialNumber"></result>
+        <collection property="orderDetails" ofType="OrderDetail">
+            <result column="quantity" property="quantity"></result>
+            <result column="cost" property="cost"></result>
+            <association property="product" javaType="Product">
+                <result column="name" property="name"></result>
+                <result column="filename" property="fileName"></result>
+                <result column="price" property="price"></result>
+            </association>
+        </collection>
+    </resultMap>
+
+    <select id="findAllByUserId" parameterType="java.lang.Long" resultMap="orderMap">
+        select o.useraddress,o.cost,o.serialnumber,p.name,p.filename,od.quantity,p.price,od.cost from easybuy_order o,easybuy_order_detail od,easybuy_product p where
+o.id = od.orderid and od.productid = p.id and userid = #{id}
+    </select>
 
 </mapper>

@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -30,6 +31,15 @@ public class ProductHandler {
         modelAndView.setViewName("productDetail");
         modelAndView.addObject("product",productService.findById(id));
         modelAndView.addObject("categoryList",productService.findAll());
+        return modelAndView;
+    }
+
+    @PostMapping("/search")
+    public ModelAndView search(String keyWord){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("products",productService.findAllByKey(keyWord));
+        modelAndView.addObject("categoryList",productService.findAll());
+        modelAndView.setViewName("goodsList");
         return modelAndView;
     }
 }

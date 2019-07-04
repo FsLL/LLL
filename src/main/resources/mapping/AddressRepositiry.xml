@@ -6,4 +6,8 @@
         select * from easybuy_user_address where userid = #{id}
     </select>
 
+    <insert id="save" parameterType="Address">
+        insert into easybuy_user_address(userid,address,createtime,isdefault,remark) values(#{user.id},#{address},#{createTime},#{isDefault},#{remark})
+    </insert>
+
 </mapper>

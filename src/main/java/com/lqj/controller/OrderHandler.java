@@ -42,8 +42,16 @@ public class OrderHandler {
     }
 
     @PostMapping("/settlement")
-    public ModelAndView settlement(String selectAddress,Integer cost,HttpSession session){
+    public ModelAndView settlement(String selectAddress,Integer cost,HttpSession session,String address,String remark){
         Order order = new Order();
+        User user = (User) session.getAttribute("user");
+        //判断是否为新地址
+        if(selectAddress.equals("newAddress")){
+            //1、将新地址保存到数据库中
+            addressService.save(user,address,remark);
+            //2、注入到 Order
+            selectAddress = address;
+        }
         order.setUseraddress(selectAddress);
         order.setCost(cost);
         order.setCreateTime(new Date());
@@ -58,7 +66,6 @@ public class OrderHandler {
             e.printStackTrace();
         }
         order.setSerialNumber(seriaNumber);
-        User user = (User) session.getAttribute("user");
         order.setUser(user);
         orderService.save(order);
         cartService.deleteByUserId(user.getId());

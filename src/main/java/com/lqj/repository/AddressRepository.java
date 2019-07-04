@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface AddressRepository {
     public List<Address> findByUserId(Long id);
+    public void save(Address address);
 }

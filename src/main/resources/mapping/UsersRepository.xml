@@ -9,4 +9,10 @@
         select * from easybuy_user where loginname = #{param1} and password = #{param2}
     </select>
 
+    <insert id="register" parameterType="User">
+        INSERT INTO easybuy_user
+            (loginname,username,PASSWORD,sex,identitycode,email,mobile)
+        VALUES (#{loginName},#{userName},#{password},#{sex},#{identityCode},#{email},#{mobile})
+    </insert>
+
 </mapper>

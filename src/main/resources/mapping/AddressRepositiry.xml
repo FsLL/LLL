@@ -10,4 +10,8 @@
         insert into easybuy_user_address(userid,address,createtime,isdefault,remark) values(#{user.id},#{address},#{createTime},#{isDefault},#{remark})
     </insert>
 
+    <delete id="deleteByAddressId" parameterType="int">
+        delete from easybuy_user_address where id=#{id}
+    </delete>
+
 </mapper>

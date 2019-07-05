@@ -6,16 +6,14 @@ import com.lqj.entity.News;
 import com.lqj.entity.ProductCategory;
 import com.lqj.entity.User;
 import com.lqj.repository.UsersRepository;
+import com.lqj.service.AddressService;
 import com.lqj.service.CartService;
 import com.lqj.service.NewsService;
 import com.lqj.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 
@@ -36,6 +34,9 @@ public class HelloHandler {
 
     @Autowired
     private CartService cartService;
+
+    @Autowired
+    private AddressService addressService;
 
     @PostMapping("/login")
     public String login(String loginName, @RequestParam("passWord") String password, Model model,HttpSession session){
@@ -82,4 +83,28 @@ public class HelloHandler {
         modelAndView.addObject("pages",newsService.getPages());
         return modelAndView;
     }
+
+    @GetMapping("/findAddressByUserId")
+    public ModelAndView findAddressByUserId(HttpSession session){
+        User user = (User) session.getAttribute("user");
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("userAddressList");
+        modelAndView.addObject("list",addressService.findByUserId(user.getId()));
+        return modelAndView;
+    }
+
+    @GetMapping("/deleteByAddressId/{id}")
+    public String deleteByAddressId(@PathVariable("id") Integer id){
+        System.out.println("--->deleteByAddressId");
+        addressService.deleteByAddressId(id);
+        return "redirect:/findAddressByUserId";
+    }
+
+    @PostMapping("/register")
+    @ResponseBody
+    public String register(User user){
+        usersRepository.register(user);
+        return "success";
+    }
+
 }

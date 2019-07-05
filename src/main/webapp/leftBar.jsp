@@ -12,7 +12,7 @@
         <div class="left_m_t t_bg2">会员中心</div>
         <ul>
             <li><a href="/userInfo.jsp" >用户信息</a></li>
-            <li><a href="/user/findAllAddressByUserId" >地址管理</a></li>
+            <li><a href="/findAddressByUserId" >地址管理</a></li>
         </ul>
     </div>
     <div class="left_m">

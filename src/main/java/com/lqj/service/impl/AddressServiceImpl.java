@@ -30,4 +30,9 @@ public class AddressServiceImpl implements AddressService {
         addressObj.setCreateTime(new Date());
         addressRepository.save(addressObj);
     }
+
+    @Override
+    public void deleteByAddressId(int id) {
+        addressRepository.deleteByAddressId(id);
+    }
 }

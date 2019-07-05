@@ -8,4 +8,5 @@ import java.util.List;
 public interface AddressService {
     public List<Address> findByUserId(Long id);
     public void save(User user, String address, String remark);
+    public void deleteByAddressId(int id);
 }

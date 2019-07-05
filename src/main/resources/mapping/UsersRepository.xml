@@ -15,4 +15,12 @@
         VALUES (#{loginName},#{userName},#{password},#{sex},#{identityCode},#{email},#{mobile})
     </insert>
 
+    <select id="findAllUser" resultType="User">
+        select * from easybuy_user limit #{param1},#{param2}
+    </select>
+
+    <select id="count" resultType="java.lang.Integer">
+        select count(*) from easybuy_user
+    </select>
+
 </mapper>

@@ -1,10 +1,7 @@
 package com.lqj.controller;
 
 
-import com.lqj.entity.Cart;
-import com.lqj.entity.News;
-import com.lqj.entity.ProductCategory;
-import com.lqj.entity.User;
+import com.lqj.entity.*;
 import com.lqj.repository.UsersRepository;
 import com.lqj.service.AddressService;
 import com.lqj.service.CartService;
@@ -107,4 +104,14 @@ public class HelloHandler {
         return "success";
     }
 
+    @GetMapping("/findForLayui")
+    @ResponseBody
+    public UserVo findForLayui(Integer page,Integer limit){
+        UserVo userVo = new UserVo();
+        userVo.setCode(0);
+        userVo.setMsg("");
+        userVo.setCount(usersRepository.count());
+        userVo.setData(usersRepository.findAllUser((page-1)*limit,limit));
+        return userVo;
+    }
 }

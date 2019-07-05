@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TestSpringboot_jsp:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3631fed-e811-40ad-a92d-cd9538d8a34b" name="Default" comment="LLL">
-      <change afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/userAddressList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/HelloHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/HelloHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/AddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/AddressRepositiry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/AddressRepositiry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/UsersRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/UsersRepository.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/leftBar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/leftBar.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="c3631fed-e811-40ad-a92d-cd9538d8a34b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,43 +21,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/Application.java">
+      <file leaf-file-name="echartstest.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/echartstest.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="echartstest2.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/echartstest2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3390">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchartsRepository.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/EchartsRepository.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchartsServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/EchartsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/User.java">
+      <file leaf-file-name="EchartsHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/EchartsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/HelloHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2670">
-              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+            <state relative-caret-position="-354">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +79,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -92,26 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/OrderRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/OrderHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/CartService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/impl/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/CartRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/CartRepository.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/OrderRepository.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/toSettlement.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/searchBar.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/settlement2.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/OrderHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/OrderRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/AddressRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/AddressService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/impl/AddressServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/AddressRepositiry.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/OrderHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/ProductHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lqj/service/impl/ProductServiceImpl.java" />
@@ -143,6 +128,26 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapping/UsersRepository.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/HelloHandler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/UsersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UsersRepository.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lqj/entity/UserVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/HelloHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuitest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuitest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lqj/repository/UsersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UsersRepository.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lqj/controller/HelloHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/echartstest.jsp" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/EchartsVo.java" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/EchartsRepository.java" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/echartstest.jsp" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/Echarts.java" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/EchartsRepository.xml" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/EchartsVO.java" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/EchartsService.java" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/EchartsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/echartstest2.jsp" />
+        <option value="$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/EchartsHandler.java" />
       </list>
     </option>
   </component>
@@ -151,6 +156,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -174,13 +186,14 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +301,7 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,6 +322,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\TestSpringboot_jsp\src\main\webapp" />
+      <recent name="G:\TestSpringboot_jsp\src\main\webapp\js" />
       <recent name="G:\TestSpringboot_jsp\src\main\resources\mapping" />
     </key>
   </component>
@@ -323,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -375,9 +390,52 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="echartstest2.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/echartstest2.jsp" />
+      <deployment>
+        <artifact name="TestSpringboot_jsp:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="echartstest2_jsp_TestSpringboot_jsp" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TestSpringboot_jsp:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Tomcat Server.echartstest2.jsp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Tomcat Server.echartstest2.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +469,9 @@
       <workItem from="1562221844086" duration="959000" />
       <workItem from="1562225749221" duration="3036000" />
       <workItem from="1562229252715" duration="7051000" />
-      <workItem from="1562288599937" duration="685000" />
+      <workItem from="1562288599937" duration="7231000" />
+      <workItem from="1562303297210" duration="4035000" />
+      <workItem from="1562311759046" duration="8625000" />
     </task>
     <task id="LOCAL-00001" summary="LLL">
       <created>1562155681016</created>
@@ -441,17 +501,26 @@
       <option name="project" value="LOCAL" />
       <updated>1562227513472</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LLL">
+      <created>1562290137942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562290137942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75789000" />
+    <option name="totallyTimeSpent" value="94995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32956153" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -460,17 +529,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39179632" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.10183875" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.43281472" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.18104668" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.062234797" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06789251" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.22319035" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.22855228" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -478,7 +548,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.43361583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -556,118 +625,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/categoryBar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/CartRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/CartRepository.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/goodsList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1505">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/ProductCategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/ProductCategoryRepository.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/ProductHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/ProductRepository.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/userInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/NewsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/NewsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -696,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/NewsRepository.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/News.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -710,13 +664,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -761,20 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/CartHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/OrderHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/searchBar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -810,9 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-420" />
@@ -832,38 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/UsersRepository.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/UsersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/settlement2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/userAddressList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/settlement3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -874,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/toSettlement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
-          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -888,28 +783,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/HelloHandler.java">
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2670">
-          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/UserVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        <state relative-caret-position="300">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/settlement3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/settlement2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/toSettlement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/NewsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/NewsRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/UsersRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/UsersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/layuitest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/js/echarts.common.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/repository/EchartsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/Echarts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/EchartsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/entity/EchartsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/CartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1181">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/HelloHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/OrderHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/ProductHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/echartstest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/webapp/echartstest2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3390">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/resources/mapping/EchartsRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/controller/EchartsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestSpringboot_jsp/src/main/java/com/lqj/service/impl/EchartsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
